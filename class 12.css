@@ -1,0 +1,47 @@
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(154, 140, 218);  
+  text-decoration: underline;
+}
+article{
+text-align: justify;
+padding: 0  20px ;
+font-size: 30px;
+color: rgb(247, 12, 129);
+}
+#image-one{
+display: block;
+margin: auto;
+height: 60vh;
+width: 55vw;
+border: 5px solid red;
+box-shadow: 5px 10px 10px black;
+}
+#image-two{
+    display: block;
+margin: auto;
+height: 60vh;
+width: 40vw;
+border-radius: 30px;
+border: 7px groove rgba(138, 12, 54, 0.171);
+box-shadow: 5px 10px 7px black;
+}
+.asn{
+height: 20vh;
+width: 25vw;
+border: 5px solid red;
+
+}
+#parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
